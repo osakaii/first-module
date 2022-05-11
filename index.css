@@ -1,8 +1,3 @@
-@font-face {
-     font-family: "Poppins"; 
-     src: url('./fonts/Poppins/Poppins-Black.ttf'); 
-     src: url('./fonts/Poppins/Poppins-Medium.ttf'); 
-} 
 
 *,
 *::before,
@@ -74,7 +69,9 @@ select {
     scroll-behavior: auto !important;
   }
 }
-
+p{
+    font-size: 16px;
+}
 .container{
    width: 100%;
    padding: 0 10%;
