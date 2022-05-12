@@ -4,8 +4,8 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="./main.css" />
-    <link rel="stylesheet" href="./index.css" />
+    <link rel="stylesheet" href="./styles/main.css" />
+    <link rel="stylesheet" href="./styles/index.css" />
     <title>Happy</title>
   </head>
   <body>
@@ -24,39 +24,41 @@
         <li class="navbar__item"><button class="button">GET THIS APP</button></li>
       </ol>
     </header>
-    <section class="section1 container">
+    <section class="timerSection container">
         <h1>BIG SALE ON LIFETIME PLAN</h1>
         <h2>there is very little left</h2>
         <div id="timer"></div>
     </section>
-    <section class="section2 container">
-        <div class="section2__main">
-          <div class="section2_logo logo">
+    <section class="introSection container">
+        <div class="introSection__main">
+          <div class="introSection__logo logo">
             <div >
               (н)
             </div>
             <p>H(app)y</p>
           </div>
-          <p class="section2__article">The future of digital photos.</p>
-          <p class="section__desc">The H(app)y app is the latest & greatest in phone photography. It's available in the App Store right now. Go check it out!</p>
+          <p class="introSection__article">The future of digital photos.</p>
+          <p class="introSection__desc">The H(app)y app is the latest & greatest in phone photography. It's available in the App Store right now. Go check it out!</p>
           <button class="button">BUY NOW</button>
           <button class="button">READ MORE</button>
         </div>
         <img src="./assets/s3_phone.png" alt="">
     </section>
-    <section class="section3 container">
+    <section class="featuresSection container">
       <p>Features</p>
-      <h1> The latest & greatest in phone photography.</h1>
-      <div class="section3__item">
-        <div></div>
-        <img src="./assets/s3_phone.png" alt="">
-        <div class="section3__item__text">
-          <p>Calendar view</p>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam scelerisque aliquam odio et faucibus.</p>
+      <h1> The latest & greatest in phone <br> photography.</h1>
+      <div class="featuresSection__item__wrapper">
+        <div class="featuresSection__item">
+          <div class="featuresSection_centralImg"><img src="./assets/Shape.png" alt=""></div>
+          <img src="./assets/s3_phone.png" alt="">
+          <div class="featuresSectionn__item__text">
+            <p>Calendar view</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam scelerisque aliquam odio et faucibus.</p>
+          </div>
         </div>
       </div>
     </section>
     <footer id="footer"></footer>
-    <script src="./main.js"></script>
+    <script src="./javaScript/main.js"></script>
   </body>
 </html>

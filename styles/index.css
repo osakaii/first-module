@@ -1,9 +1,25 @@
 
+@font-face {
+  font-family: 'Poppins';
+  src: url(../fonts/Poppins/Poppins-Regular.ttf);
+  font-weight: 400;
+}
+@font-face {
+  font-family: 'Poppins';
+  src: url(../fonts/Poppins/Poppins-Bold.ttf);
+  font-weight: 700;
+}
+@font-face {
+  font-family: 'Poppins';
+  src: url(../fonts/Poppins/Poppins-SemiBold.ttf);
+  font-weight: 600;
+}
+
 *,
 *::before,
 *::after {
   box-sizing: border-box;
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Poppins';
 }
 
 ul[class],
@@ -26,7 +42,6 @@ blockquote,
 dl,
 dd {
   margin: 0;
-  color: #222539;
 }
 
 body {
