@@ -80,3 +80,12 @@ ol{
     margin: 0;
     padding: 0;
 }
+.button{
+  border: none;
+  background-color: #222222;
+  color: white;
+  padding: 8px 30px;
+  font-size: 16px;
+  border-radius: 4px;
+  margin: 0 5px;
+}
