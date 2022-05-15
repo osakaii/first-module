@@ -1,0 +1,19 @@
+
+.numbers{
+    background-color: #FF5437;
+    display: flex;
+    justify-content: space-between;
+}
+.numbers-item{
+    margin: 100px 0;
+}
+.numbers-item h3{
+    font-size: 96px;
+    color: #ffffff;
+    text-align: center;
+    font-weight: 400;
+}
+.numbers-item p{
+    font-size: 20px;
+    color: #ffffff;
+}

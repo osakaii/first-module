@@ -1,5 +1,11 @@
 
 @import url(./blocks/features.css);
+@import url(./blocks/numbers.css);
+@import url(./blocks/tech.css);
+@import url(./blocks/speed.css);
+@import url(./blocks/darkmode.css);
+@import url(./blocks/prices.css);
+
 
 /* header */
 

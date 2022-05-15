@@ -8,7 +8,7 @@
     color: white;
     padding: 100px 10% !important;
   }
-  .features p{
+  .features__title{
     text-transform: uppercase;
     font-size: 16px;
     letter-spacing: 1.5px;
@@ -18,4 +18,96 @@
     font-weight: 400;
     letter-spacing: 1px;
   }
-  
+  .features-item-wrapper{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+    margin: 50px 0;
+  }
+  .features-item{
+    width: calc(33% - 16px );
+    background-color: #fff;
+    height: 490px;
+    overflow: hidden;
+    border-radius: 20px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+  }
+  .features-item img{
+    position: absolute;
+    top: 40px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 65%;
+    z-index: 1;
+  }
+  .features-item-desc{
+    background-color: #F2F2F2;
+    position: relative;
+    z-index: 10;
+    height: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+  .features-item-desc{
+    padding: 0 7%;
+  }
+  .features-item-desc__colored{
+    font-size: 30px;
+  }
+  .features-item-desc__simple{
+    color: #222222;
+    font-size: 16px;
+  }
+  .features-item__icon{
+    width: 60px;
+    height: 60px;
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 100;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .features-item:nth-child(1) .features-item-desc__colored{
+    color: #0278ED;
+  }
+  .features-item:nth-child(1)  .features-item__icon{
+    background-color: #0278ED;
+  }
+  .features-item:nth-child(2) .features-item-desc__colored{
+    color:#FF5437;
+  }
+  .features-item:nth-child(2) .features-item__icon{
+    background-color:#FF5437;
+  }
+  .features-item:nth-child(3) .features-item-desc__colored{
+    color: #FF9209;
+  }
+  .features-item:nth-child(3) .features-item__icon{
+    background-color:#FF9209;
+  }
+  .features-item:nth-child(4) .features-item-desc__colored{
+    color: #E738CE;
+  }
+  .features-item:nth-child(4) .features-item__icon{
+    background-color:#E738CE;
+  }
+  .features-item:nth-child(5) .features-item-desc__colored{
+    color:#00C6DF;
+  }
+  .features-item:nth-child(5) .features-item__icon{
+    background-color:#00C6DF;
+  }
+  .features-item:nth-child(6) .features-item-desc__colored{
+    color: #B25DF8;
+  }
+  .features-item:nth-child(6) .features-item__icon{
+    background-color:#B25DF8;
+  }
