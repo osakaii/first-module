@@ -5,7 +5,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./styles/main.css" />
-    <link rel="stylesheet" href="./styles/index.css" />
+    <link rel="stylesheet" href="./styles/reset.css" />
+    <script src="./javaScript/config.js" type="module" defer></script>
+    <script src="./javaScript/main.js" type="module" defer></script>
     <title>Happy</title>
   </head>
   <body>
@@ -27,7 +29,15 @@
     <section class="timerSection container">
         <h1>BIG SALE ON LIFETIME PLAN</h1>
         <h2>there is very little left</h2>
-        <div id="timer"></div>
+        <div class="timerSection__timerWrapper" >
+          <div id="timer"></div>
+          <div class="timerSection__times">
+            <p>days</p> 
+            <p>hours</p> 
+            <p>minutes</p> 
+            <p>seconds</p>  
+          </div>
+        </div>
     </section>
     <section class="introSection container">
         <div class="introSection__main">
@@ -44,21 +54,14 @@
         </div>
         <img src="./assets/s3_phone.png" alt="">
     </section>
-    <section class="featuresSection container">
+    <section class="features container">
       <p>Features</p>
       <h1> The latest & greatest in phone <br> photography.</h1>
-      <div class="featuresSection__item__wrapper">
-        <div class="featuresSection__item">
-          <div class="featuresSection_centralImg"><img src="./assets/Shape.png" alt=""></div>
-          <img src="./assets/s3_phone.png" alt="">
-          <div class="featuresSectionn__item__text">
-            <p>Calendar view</p>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam scelerisque aliquam odio et faucibus.</p>
-          </div>
-        </div>
+      <div class="features__item">
+
       </div>
     </section>
+    
     <footer id="footer"></footer>
-    <script src="./javaScript/main.js"></script>
   </body>
 </html>

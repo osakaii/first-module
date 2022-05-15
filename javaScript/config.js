@@ -1,4 +1,4 @@
 
-export const data = {
-    time: '2024-03-19'
+export const DATA = {
+    time: '16.05.2022 15:48'
 }
