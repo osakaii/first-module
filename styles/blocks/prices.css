@@ -1,0 +1,23 @@
+
+.prices{
+
+}
+.prices-content{
+    
+}
+.prices-name{
+    font-size: 22px;
+    color: #222;
+    text-align: center;
+}
+.prices-title{
+    text-align: center;
+    font-size: 36px;
+    margin: 10px 0;
+    color: #222;
+}
+.prices-title-desc{
+    font-size: 16px;
+    text-align: center;
+    color: #666666;
+}

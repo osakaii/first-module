@@ -2,7 +2,6 @@
 import { DATA } from "./config.js";
 
 const timerDiv = document.getElementById('timer')
-const timerSection__times = document.querySelector('.timerSection__times')
 
 const [day, month, yearTime] = DATA.time.split('.')
 const [year, time] = yearTime.split(' ')
@@ -14,7 +13,7 @@ const drawTime = ( day, hours, minutes, sec) =>{
     timerDiv.innerHTML = [ day, hours, minutes, sec].join(' | ')
 }
 
-let interval = setInterval(()=>{
+let timeOut = setInterval(()=>{
     let nowDate = new Date().getTime()
     if( endDate > nowDate){
         let leftDate = (endDate - nowDate)
@@ -28,6 +27,6 @@ let interval = setInterval(()=>{
         drawTime( days, hours, minutes, seconds )
     }else{
         console.log('invalid date')
-        clearInterval(interval)
+        clearInterval(timeOut)
     }
 }, 1000)

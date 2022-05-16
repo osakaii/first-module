@@ -1,0 +1,34 @@
+
+/* section1 */
+
+.timerSection {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 436px;
+    background: url(../../assets/timer-img.jpeg);
+  }
+  .timerSection h1 {
+    color: white;
+    font-size: 50px;
+    letter-spacing: 1.5px;
+  }
+  .timerSection h2 {
+    color: white;
+    font-size: 40px;
+    letter-spacing: 1.5px;
+  }
+  #timer{
+    color: #FFFFFF;
+    font-size: 100px ;
+  }
+  .timerSection__times{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+  }
+  .timerSection__times p{
+    color: #FFFFFF;
+    font-size: 24px;
+  }
