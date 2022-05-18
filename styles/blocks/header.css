@@ -1,6 +1,6 @@
 /* header */
 
-#header {
+.header {
     position: sticky;
     z-index: 999;
     top: 0;
@@ -18,7 +18,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 50%;
+    gap: 42px;
   }
   .navbar a {
     text-decoration: none;

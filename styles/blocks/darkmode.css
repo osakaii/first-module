@@ -46,6 +46,6 @@
 .darkmode-modes div p{
     margin: 5px 0;
 }
-.darkmode-modes-dark p{
+.darkmode-modes__dark p{
     color: #FF9209;
 }

@@ -21,11 +21,18 @@
   }
   #timer{
     color: #FFFFFF;
-    font-size: 100px ;
+    font-size: 7rem;
+    width: 80%;
+    margin: 0 auto;
+  }
+  .timerSection__timer-wrapper{
+    width: 100%;
+    text-align: center;
   }
   .timerSection__times{
-    width: 100%;
+    width: 65%;
     display: flex;
+    margin: 0 auto;
     justify-content: space-between;
   }
   .timerSection__times p{

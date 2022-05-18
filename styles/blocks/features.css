@@ -75,39 +75,3 @@
     justify-content: center;
     align-items: center;
   }
-  .features-item:nth-child(1) .features-item-desc__colored{
-    color: #0278ED;
-  }
-  .features-item:nth-child(1)  .features-item__icon{
-    background-color: #0278ED;
-  }
-  .features-item:nth-child(2) .features-item-desc__colored{
-    color:#FF5437;
-  }
-  .features-item:nth-child(2) .features-item__icon{
-    background-color:#FF5437;
-  }
-  .features-item:nth-child(3) .features-item-desc__colored{
-    color: #FF9209;
-  }
-  .features-item:nth-child(3) .features-item__icon{
-    background-color:#FF9209;
-  }
-  .features-item:nth-child(4) .features-item-desc__colored{
-    color: #E738CE;
-  }
-  .features-item:nth-child(4) .features-item__icon{
-    background-color:#E738CE;
-  }
-  .features-item:nth-child(5) .features-item-desc__colored{
-    color:#00C6DF;
-  }
-  .features-item:nth-child(5) .features-item__icon{
-    background-color:#00C6DF;
-  }
-  .features-item:nth-child(6) .features-item-desc__colored{
-    color: #B25DF8;
-  }
-  .features-item:nth-child(6) .features-item__icon{
-    background-color:#B25DF8;
-  }

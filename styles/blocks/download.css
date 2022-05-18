@@ -1,0 +1,10 @@
+
+.download-logo{
+    display: flex;
+    justify-content: center;
+    padding-top: 27px;
+}
+.download-content p:nth-child(3){
+    width: 50%;
+    margin: 0 auto;
+}
