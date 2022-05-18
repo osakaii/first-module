@@ -1,0 +1,32 @@
+.faq {
+  background-color: #e5e5e5;
+}
+.faq-content {
+  padding: 100px 0;
+}
+.faq h4 {
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 36px;
+}
+.faq-title-desc{
+    margin:13px 0 25px 0;
+}
+.faq-item-wrapper{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+}
+.faq-item{
+    width: calc(50% - 8px);
+    padding-top: 26px;
+}
+.faq-item :nth-child(1){
+    font-size: 18px;
+    line-height: 28px;
+}
+.faq-item :nth-child(2){
+    font-size: 16px;
+    margin-top: 10px;
+    line-height: 24px;
+}

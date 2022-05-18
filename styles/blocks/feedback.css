@@ -1,11 +1,17 @@
 
+.feedback{
+    background-color: #F2F2F2;
+}
+.feedback-content{
+    padding: 100px 0;
+}
 .feedback-item-wrapper{
     display: flex;
     gap: 16px;
     padding-top: 40px;
 }
 .feedback-item{
-    background-color: #F2F2F2;
+    background-color: #fff;
     width: calc(33% - 16px );
     border-radius: 20px;
     display: flex;
@@ -13,12 +19,15 @@
     align-items: center;
     padding: 30px;
 }
-.feedback-item p:nth-child(1){
-
+.feedback-item p{
+    text-align: left;
+    width: 100%;
 }
-.feedback-item p:nth-child(1){
-    
+.feedback-item p:nth-child(2){
+    margin-top: 22px;
+    color: #1B1A1A;
 }
-.feedback-item p:nth-child(1){
-    
+.feedback-item p:nth-child(3){
+    font-size: 14px;
+    color: #1B1A1A;
 }

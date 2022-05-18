@@ -1,4 +1,7 @@
 
+.download-content{
+    padding: 100px;
+}
 .download-logo{
     display: flex;
     justify-content: center;
