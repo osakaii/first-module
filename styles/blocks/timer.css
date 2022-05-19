@@ -1,7 +1,7 @@
 
 /* section1 */
 
-.timerSection {
+.timer-section {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -9,14 +9,14 @@
     min-height: 436px;
     background: url(../../assets/timer-img.jpeg);
   }
-  .timerSection h1 {
+  .timer-section h1 {
     color: white;
     font-size: 50px;
     letter-spacing: 1.5px;
   }
-  .timerSection h2 {
+  .timer-section h2 {
     color: white;
-    font-size: 40px;
+    font-size: 30px;
     letter-spacing: 1.5px;
   }
   #timer{
@@ -25,17 +25,17 @@
     width: 80%;
     margin: 0 auto;
   }
-  .timerSection__timer-wrapper{
+  .timer-section__timer-wrapper{
     width: 100%;
     text-align: center;
   }
-  .timerSection__times{
+  .timer-section__times{
     width: 65%;
     display: flex;
     margin: 0 auto;
-    justify-content: space-between;
+    justify-content: space-around;
   }
-  .timerSection__times p{
+  .timer-section p{
     color: #FFFFFF;
     font-size: 24px;
   }

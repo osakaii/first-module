@@ -1,51 +1,63 @@
 
-.blueP{
-    color: #0278ED !important;
-}
-.blue-bc{
-    background-color: #0278ED !important;
-}
-.red-orangeP{
-    color: #FF5437 !important;
-}
-.red-orange-bc{
-    background-color: #FF5437 !important;
-}
-.orangeP{
-    color: #FF9209 !important;
-}
-.orange-bc{
-    background-color: #FF9209 !important;
-}
-.pinkP{
-    color: #E738CE !important;
-}
-.pink-bc{
-    background-color: #E738CE !important;
-}
-.light-blueP{
-    color: #00C6DF !important;
-}
-.light-blue-bc{
-    background-color: #00C6DF !important;
-}
-.purpleP{
-    color: #B25DF8 !important;
-}
-.purple-bc{
-    background-color: #B25DF8 !important;
-}
 .button{
     border: none;
     background-color: #222222;
     color: white;
-    padding: 8px 30px;
-    font-size: 16px;
+    padding: 10px 25px;
+    font-size: 18px;
     border-radius: 4px;
     text-transform: uppercase;
     margin: 0 5px;
-  }
+}
 
+.blueP{
+    color: #0278ED ;
+}
+.blue-bc{
+    background-color: #0278ED ;
+}
+.red-orangeP{
+    color: #FF5437 ;
+}
+.red-orange-bc{
+    background-color: #FF5437 ;
+}
+.orangeP{
+    color: #FF9209 ;
+}
+.orange-bc{
+    background-color: #FF9209 ;
+}
+.pinkP{
+    color: #E738CE ;
+}
+.pink-bc{
+    background-color: #E738CE ;
+}
+.light-blueP{
+    color: #00C6DF ;
+}
+.light-blue-bc{
+    background-color: #00C6DF ;
+}
+.purpleP{
+    color: #B25DF8 ;
+}
+.purple-bc{
+    background-color: #B25DF8 ;
+}
+.darkP{
+    color: #222;
+}
+.dark-bc{
+    background-color: #222;
+}
+.whiteP{
+    color: #fff;
+}
+.white-bc{
+    background-color: #fff;
+}
 .button:hover{
     opacity: 0.8;
 }
@@ -58,16 +70,39 @@
 .section-name{
     font-size: 22px;
     color: #222;
+    letter-spacing: 2px;
     text-align: center;
 }
 .section-title{
     text-align: center;
-    font-size: 36px;
-    margin: 10px 0;
+    font-size: 32px;
+    line-height: 36px;
+    margin: 5px 0 14px 0;
     color: #222;
 }
 .section-title-desc{
-    font-size: 16px;
+    font-size: 14px;
+    line-height: 20px;
     text-align: center;
     color: #666666;
+}
+
+.side-phone {
+  margin-top: auto;
+  width: 376px;
+  height: 548px;
+}
+.side-phone img {
+  width: 376px;
+  height: 548px;
+  object-fit: cover;
+  object-position: top;
+}
+.unselectable {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
 }

@@ -1,41 +1,54 @@
 
+
 .darkmode{
-    background: #222222;
+    background-color: #222;
+    transition: .2s;
 }
 .darkmode *{
     color: #fff;
 }
 .darkmode-content{
-    padding: 100px 0;
+    padding: 100px 0 160px 0;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;    
 }
-.darkmode:nth-child(1){
-    font-size: 16px;
+.darkmode-name{
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 2px;
 }
 .darkmode-title{
-    font-size: 36px;
+    font-size: 32px;
+    line-height: 36px;
+    margin: 5px 0 15px 0;
 }
 .darkmode-title span{
-    color: #FF9209;
+    font-size: 32px;
+    line-height: 36px;
 }
-.darkmode-desc{
+.darkmode-title-desc{
     text-align: center;
-    font-size: 22px;
+    font-size: 18px;
+    line-height: 24px;
 }
 .darkmode-img{
     width: 50%;
     padding: 0 70px;
     margin: 50px 0;
+    height: 480px;
+    display: flex;
+    justify-content: center;
     border-bottom: 3px solid #E5E5E5;
+}
+.darkmode-img img{
+    height: 100%;
 }
 .darkmode-modes{
     display: flex;
-    width: 25%;
-    display: flex;
     justify-content: space-between;
+    gap: 40px;
 }
 .darkmode-modes div{
     display: flex;
@@ -45,7 +58,17 @@
 }
 .darkmode-modes div p{
     margin: 5px 0;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 2px;
 }
-.darkmode-modes__dark p{
+.darkmode-selected{
     color: #FF9209;
+}
+
+.darkmode-modes__light svg{
+    fill: white;
+}
+.darkmode-modes__dark svg{
+    fill: #FF9209;
 }

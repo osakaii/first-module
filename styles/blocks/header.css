@@ -20,9 +20,18 @@
     align-items: center;
     gap: 42px;
   }
+
   .navbar a {
     text-decoration: none;
-    font-size: 16px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
     color: #666666;
   }
   
+  .navbar button{
+    font-size: 14px;
+    padding: 10px 31px;
+    letter-spacing: 2px;
+    margin-left: 15px;
+  }

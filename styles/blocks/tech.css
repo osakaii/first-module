@@ -1,28 +1,31 @@
+.technology {
+  background: #fff;
+  display: flex;
+  justify-content: space-between;
+}
+.technology-text {
+  width: 40%;
+  padding: 177px 0 188px 0;
+}
+.technology-text :nth-child(1) {
+  text-transform: uppercase;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 2px;
+  color: #222222;
+}
+.technology-text :nth-child(2) {
+  margin: 15px 0;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 36px;
+  color: #222222;
+}
+.technology-text :nth-child(3) {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #666666;
+}
 
-.technology{
-    background: #fff;
-    display: flex;
-    justify-content: space-between;
-}
-.technology-text{
-    width: 50%;
-    padding-top: 200px;
-}
-.technology-text :nth-child(1){
-    text-transform: uppercase;
-    font-size: 18px;
-    color: #222222;
-}
-.technology-text :nth-child(2){
-    margin: 15px 0;
-    font-size: 40px;
-    color: #222222;
-}
-.technology-text :nth-child(3){
-    font-size: 20px;
-    color: #666666;
-}
-.technology img{
-    width: 35%;
-    padding-top: 100px;
-}

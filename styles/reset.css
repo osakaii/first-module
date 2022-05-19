@@ -93,7 +93,7 @@ p{
 }
 .container{
    width: 100%;
-   padding: 0 10%;
+   padding: 0 calc((100% - 1200px) / 2);
 }
 ol{
     margin: 0;

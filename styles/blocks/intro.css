@@ -1,46 +1,48 @@
 
-.introSection {
-    height: 800px;
+.intro-section {
+    height: 700px;
     padding: 100px;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
   }
-  .introSection__main {
+  .intro-section__main {
     padding: 150px 0;
-    width: 40%;
+    width: 35%;
   }
-  .introSection__logo div{
+  .intro-section__logo div{
     width: 80px;
     height: 80px;
     font-size: 50px;
     border-radius: 20px;
   }
-  .introSection__logo p{
+  .intro-section__logo p{
     font-size: 40px;
     margin-left: 20px;
     letter-spacing: -1px;
   }
   
-  .introSection__desc {
-    font-size: 24px;
+  .intro-section__desc {
+    font-size: 16px;
+    line-height: 24px;
     color: #222222;
-    font-weight: 200;
+    font-weight: 400;
   }
-  .introSection__article {
+  .intro-section__article {
     color: #222539;
     line-height: 120%;
     margin: 30px 0;
-    font-size: 65px;
+    font-size: 54px;
+    line-height: 60px;
     font-weight: 400;
   }
-  .introSection button {
+  .intro-section button {
     font-size: 20px;
     margin: 30px 5px;
   }
-  .introSection img {
+  .intro-section img {
     position: relative;
-    height: 130%;
-    padding-top: 150px;
+    height: 140%;
+    padding-top: 100px;
     z-index: 1;
     width: 35%;
   }
