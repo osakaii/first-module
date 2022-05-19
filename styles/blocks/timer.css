@@ -9,12 +9,12 @@
     min-height: 436px;
     background: url(../../assets/timer-img.jpeg);
   }
-  .timer-section h1 {
+  .timer-section h2 {
     color: white;
     font-size: 50px;
     letter-spacing: 1.5px;
   }
-  .timer-section h2 {
+  .timer-section h3 {
     color: white;
     font-size: 30px;
     letter-spacing: 1.5px;

@@ -24,7 +24,11 @@
 .price-item__price {
   font-weight: 400;
   font-size: 105px;
-  line-height: 124px;
+  line-height: 105px;
   text-align: center;
   letter-spacing: 8px;
+}
+.price-item__tarif{
+    font-size: 17px;
+    line-height: 17px;
 }

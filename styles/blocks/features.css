@@ -12,10 +12,13 @@
     text-transform: uppercase;
     font-size: 16px;
     letter-spacing: 1.5px;
+    color: #fff;
   }
   .features h1{
     font-weight: 400;
     letter-spacing: 1px;
+    font-size: 32px;
+    color: #fff;
   }
   .features-item-wrapper{
     display: flex;

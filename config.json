@@ -1,9 +1,9 @@
 {
     "time": "22.05.2022 15:48",
     "plans": [
-		{ "name": "standart", "price": 9 },
-		{ "name": "premium", "price": 99 },
-		{ "name": "lifetime", "price": 149 }
+		{ "name": "Standart", "price": 9 },
+		{ "name": "Premium", "price": 99 },
+		{ "name": "Lifetime", "price": 149 }
 	],
 	"testimonials": [
 		{ 
