@@ -4,5 +4,23 @@
 		{ "name": "standart", "price": 9 },
 		{ "name": "premium", "price": 99 },
 		{ "name": "lifetime", "price": 149 }
-	]
+	],
+	"testimonials": [
+		{ 
+			"name": "Pam Beesly", 
+			"text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus.",
+			"job": "Top Manager Happy Co"
+		},
+		{ 
+			"name": "Max Henry", 
+			"text": "Nulla efficitur auctor hendrerit. Etiam ut orci varius, faucibus libero ac, cursus quam. Aenean porta neque eget consequat fringilla.",
+			"job": "Top Manager Happy Co"
+		},
+		{ 
+			"name": "Ann Schrute", 
+			"text": "Vestibulum ultrices, orci nec egestas pharetra, ligula est semper enim, nec auctor sapien leo nec purus.",
+			"job": "CEO and CoFounder"
+		}
+	],
+	"appStoreLink": "https://example.com"
 }
