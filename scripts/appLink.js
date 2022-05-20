@@ -1,7 +1,6 @@
 import data from "../config.json" assert { type: "json" };
 
-export const linkInit = () =>{
-    console.log('hello')
+export const addAppStoreLink = () =>{
     const linkTags = document.querySelectorAll('.app_link')
 
     linkTags.forEach(tag => {

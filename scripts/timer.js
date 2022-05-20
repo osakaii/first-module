@@ -39,10 +39,18 @@ const getTimerData = (start, end) => {
 };
 
 const renderTimer = (data) => {
-  const timerDiv = document.getElementById("timer");
+  const dayDiv = document.getElementById('day')
+  const hourDiv = document.getElementById('hour')
+  const minuteDiv = document.getElementById('minute')
+  const secondDiv = document.getElementById('second')
+
   const { days, hours, minutes, seconds } = data;
 
-  timerDiv.textContent = [days, hours, minutes, seconds].join(" | ");
+  // timerDiv.textContent = [days, hours, minutes, seconds].join(" | ");
+  dayDiv.textContent = days
+  hourDiv.textContent = hours
+  minuteDiv.textContent = minutes
+  secondDiv.textContent = seconds
 };
 
 const unmountTimer = () => {

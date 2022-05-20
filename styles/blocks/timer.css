@@ -12,30 +12,52 @@
   .timer-section h2 {
     color: white;
     font-size: 50px;
-    letter-spacing: 1.5px;
+    letter-spacing: 1.1px;
   }
   .timer-section h3 {
     color: white;
     font-size: 30px;
     letter-spacing: 1.5px;
   }
-  #timer{
+  #timer p{
     color: #FFFFFF;
     font-size: 7rem;
     width: 80%;
     margin: 0 auto;
   }
   .timer-section__timer-wrapper{
-    width: 100%;
+    width: 730px;
     text-align: center;
+    display: flex;
+    justify-content: space-between;
+  }
+  .timer-section__timer-item{
+    width: 25%;
+
+  }
+  .timer-section__timer-wrapper p:nth-child(1){
+    text-align: center;
+    color: #FFFFFF;
+    font-size: 100px;
+    line-height: 150px;
+    letter-spacing: 1.1px;
+  }
+  .timer-section__timer-wrapper p:nth-child(2){
+    text-align: center;
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 36px;
+    letter-spacing: 1.5px;
+  }
+  .timer-section__timer-wrapper span{
+    text-align: center;
+    color: #FFFFFF;
+    font-size: 7rem;
   }
   .timer-section__times{
     width: 65%;
     display: flex;
     margin: 0 auto;
     justify-content: space-around;
-  }
-  .timer-section p{
-    color: #FFFFFF;
-    font-size: 24px;
   }
