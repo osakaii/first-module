@@ -75,12 +75,40 @@
           </div>
           <div class="modal-plan">
             <p>Your plan</p>
-            <input type="radio" id="modal-checkbox-1" name="featured" />
-            <label for="modal-checkbox-1">Standart</label>
-            <input type="radio" id="modal-checkbox-2" name="featured" />
-            <label for="modal-checkbox-2">Premium</label>
-            <input type="radio" id="modal-checkbox-3" name="featured" />
-            <label for="modal-checkbox-3">Lifetime</label>
+            <!--
+            <input type="radio" id="modal-checkbox-1" name="plan" />
+            <label for="modal-checkbox-1" class="modal-plan__checkbox">
+               <div></div><p>Standart</p> 
+            </label>
+            <input type="radio" id="modal-checkbox-2" name="plan" />
+            <label for="modal-checkbox-2" class="modal-plan__checkbox">
+              <div></div><p>Premium</p> 
+            </label>
+            <input type="radio" id="modal-checkbox-3" name="plan" />
+            <label for="modal-checkbox-3" class="modal-plan__checkbox">
+              <div></div><p>Lifetime</p> 
+              </label> -->
+            <div class="modal-plan__checkbox">
+              <input type="radio" id="modal-checkbox-1" name="plan" />
+              <label for="modal-checkbox-1" class="modal-plan__label">
+                <div></div>
+                <p>Standart</p>
+              </label>
+            </div>
+            <div class="modal-plan__checkbox">
+              <input type="radio" id="modal-checkbox-2" name="plan" />
+              <label for="modal-checkbox-2" class="modal-plan__label">
+                <div></div>
+                <p>Premium</p>
+              </label>
+            </div>
+            <div class="modal-plan__checkbox">
+              <input type="radio" id="modal-checkbox-3" name="plan" />
+              <label for="modal-checkbox-3" class="modal-plan__label">
+                <div></div>
+                <p>Lifetime</p>
+              </label>
+            </div>
           </div>
           <div class="modal-question">
             <p>How did you know about our app?</p>
@@ -111,22 +139,22 @@
       <h2>BIG SALE ON LIFETIME PLAN</h2>
       <h3>there is very little left</h3>
       <div class="timer-section__timer-wrapper">
-        <div class="timer-section__timer-item"> 
+        <div class="timer-section__timer-item">
           <p id="day">00</p>
           <p>days</p>
         </div>
         <span>|</span>
-        <div  class="timer-section__timer-item">
+        <div class="timer-section__timer-item">
           <p id="hour">00</p>
           <p>hours</p>
         </div>
         <span>|</span>
-        <div  class="timer-section__timer-item">
+        <div class="timer-section__timer-item">
           <p id="minute">00</p>
           <p>minutes</p>
         </div>
         <span>|</span>
-        <div  class="timer-section__timer-item">
+        <div class="timer-section__timer-item">
           <p id="second">00</p>
           <p>seconds</p>
         </div>

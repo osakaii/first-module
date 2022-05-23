@@ -54,7 +54,7 @@ const renderTimer = (data) => {
 };
 
 const unmountTimer = () => {
-  document.querySelector(".timerSection").remove();
+  document.querySelector(".timer-section").remove();
 };
 
 export const initTimer = async () => {
