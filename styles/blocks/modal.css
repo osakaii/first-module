@@ -26,7 +26,7 @@
   margin-bottom: 42px;
   padding: 10px;
 }
-.modal-form {
+#modal-form {
   display: flex;
   max-width: 330px;
   flex-direction: column;
@@ -59,11 +59,11 @@
   flex-direction: column;
   width: 100%;
 }
-.modal-plan > p{
+.modal-plan > p {
   margin: 23px 0;
 }
 
-.modal-plan__radio{
+.modal-plan__radio {
   display: flex;
   position: relative;
   align-items: center;
@@ -73,11 +73,11 @@
   height: 42px;
   user-select: none;
 }
-input[name = "plan"]{
+input[name="plan"] {
   display: none;
   visibility: hidden;
 }
-.modal-plan__radio > label > div{
+.modal-plan__radio > label > div {
   position: absolute;
   left: 15px;
   z-index: 100;
@@ -93,65 +93,91 @@ input[name = "plan"]{
   width: 100%;
   height: 100%;
 }
-input[name = "plan"]:checked ~ .modal-plan__label > div {
+input[name="plan"]:checked ~ .modal-plan__label > div {
   background: url(../../assets/checkbox.svg);
   background-repeat: no-repeat;
   background-position: center center;
   background-size: 20px 16px;
 }
-.modal-plan__radio:nth-child(2){
-  border: 1px solid #0278ED;
-  color: #0278ED;
+.modal-plan__radio:nth-child(2) {
+  border: 1px solid #0278ed;
+  color: #0278ed;
 }
-.modal-plan__radio:nth-child(3){
-  border: 1px solid #FF5437;
-  color: #FF5437;
+.modal-plan__radio:nth-child(3) {
+  border: 1px solid #ff5437;
+  color: #ff5437;
 }
 
-.modal-plan__radio:nth-child(4){
-  border: 1px solid #FF9209;
-  color: #FF9209;
+.modal-plan__radio:nth-child(4) {
+  border: 1px solid #ff9209;
+  color: #ff9209;
 }
 
 #modal-radio-1:checked ~ .modal-plan__label {
-  background-color: #0278ED;
+  background-color: #0278ed;
   color: white;
-} 
-#modal-radio-2:checked ~ .modal-plan__label{
-  background-color: #FF5437;
+}
+#modal-radio-2:checked ~ .modal-plan__label {
+  background-color: #ff5437;
   color: white;
-} 
-#modal-radio-3:checked ~ .modal-plan__label{
-  background-color: #FF9209;
+}
+#modal-radio-3:checked ~ .modal-plan__label {
+  background-color: #ff9209;
   color: white;
-} 
+}
 
-.modal-question > p{
+.modal-question > p {
   margin: 43px 0 16px 0;
 }
 
-.modal-question__checkbox input{
+.modal-question__checkbox input {
   display: none;
   visibility: hidden;
 }
 .modal-question__checkbox {
   margin: 7.5px 0;
 }
-.modal-quest__label > div{
-  border: 2px solid #0278ED;
+.modal-quest__label > div {
+  border: 2px solid #0278ed;
   height: 24px;
   width: 24px;
   border-radius: 4px;
   background: none;
 }
-.modal-quest__label{
+.modal-quest__label {
   display: flex;
   padding-left: 25%;
   gap: 20px;
 }
-input[name = "modal-checkbox"]:checked ~ .modal-quest__label > div {
+input[name="modal-checkbox"]:checked ~ .modal-quest__label > div {
   background: url(../../assets/phones/blue-check.svg);
   background-repeat: no-repeat;
   background-position: center center;
   background-size: 16px 16px;
+}
+.modal-sending {
+  display: none;
+  gap: 17px;
+  font-size: 14px;
+  line-height: 18px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  margin-top: 42px;
+  color: #7e7e7e;
+ 
+}
+.modal-sending svg{
+  animation: 2s infinite  rotate;
+}
+
+@keyframes rotate {
+  0% {
+    transform: rotate(0deg);
+  }
+  50%{
+    transform: rotate(180deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
 }

@@ -13,7 +13,7 @@
   <body>
     <div class="modal" id="modalWindow">
       <div class="modal-content" id="modal-content">
-        <form action="" class="modal-form">
+        <form  id="modal-form">
           <p class="modal-title">Leave a request for the purchase of goods</p>
           <div class="modal-info">
             <input type="text" class="modal-info__input" placeholder="name" />
@@ -22,21 +22,21 @@
           <div class="modal-plan">
             <p>Your plan?</p>
             <div class="modal-plan__radio">
-              <input type="radio" id="modal-radio-1" name="plan" />
+              <input type="radio" id="modal-radio-1" name="plan" class="modal__radio" value="standart" />
               <label for="modal-radio-1" class="modal-plan__label">
                 <div></div>
                 Standart
               </label>
             </div>
             <div class="modal-plan__radio">
-              <input type="radio" id="modal-radio-2" name="plan" />
+              <input type="radio" id="modal-radio-2" name="plan" class="modal__radio" value="premium" />
               <label for="modal-radio-2" class="modal-plan__label">
                 <div></div>
                 Premium
               </label>
             </div>
             <div class="modal-plan__radio">
-              <input type="radio" id="modal-radio-3" name="plan" />
+              <input type="radio" id="modal-radio-3" name="plan" class="modal__radio" value="lifetime"/>
               <label for="modal-radio-3" class="modal-plan__label">
                 <div></div>
                 Lifetime
@@ -46,28 +46,28 @@
           <div class="modal-question">
             <p>How did you know about our app?</p>
             <div class="modal-question__checkbox">
-              <input type="checkbox" name="modal-checkbox" id="modal-checkbox-1" />
+              <input type="checkbox" name="modal-checkbox" id="modal-checkbox-1"  class="modal__checkbox" value="Facebook"/>
               <label for="modal-checkbox-1" class="modal-quest__label">
                 <div></div>
                 <p>Facebook</p>
               </label>
             </div>
             <div class="modal-question__checkbox">
-              <input type="checkbox" name="modal-checkbox" id="modal-checkbox-2" />
+              <input type="checkbox" name="modal-checkbox" id="modal-checkbox-2" class="modal__checkbox" value="Instagram"/>
               <label for="modal-checkbox-2" class="modal-quest__label">
                 <div></div>
                 <p>Instagram</p>
               </label>
             </div>
             <div class="modal-question__checkbox">
-              <input type="checkbox" name="modal-checkbox" id="modal-checkbox-3" />
+              <input type="checkbox" name="modal-checkbox" id="modal-checkbox-3" class="modal__checkbox" value="Youtube"/>
               <label for="modal-checkbox-3" class="modal-quest__label">
                 <div></div>
                 <p>Youtube</p>
               </label>
             </div>
             <div class="modal-question__checkbox">
-              <input type="checkbox" name="modal-checkbox" id="modal-checkbox-4" />
+              <input type="checkbox" name="modal-checkbox" id="modal-checkbox-4" value="Other"/>
               <label for="modal-checkbox-4" class="modal-quest__label">
                 <div></div>
                 <p>Other</p>
@@ -75,6 +75,12 @@
             </div>
           </div>
           <button class="modal-button">SEND</button>
+          <div class="modal-sending">
+            <svg width="16" height="20" viewBox="0 0 16 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M4 18H12V15C12 13.9 11.6083 12.9583 10.825 12.175C10.0417 11.3917 9.1 11 8 11C6.9 11 5.95833 11.3917 5.175 12.175C4.39167 12.9583 4 13.9 4 15V18ZM15 20H1C0.716667 20 0.479 19.904 0.287 19.712C0.0956668 19.5207 0 19.2833 0 19C0 18.7167 0.0956668 18.4793 0.287 18.288C0.479 18.096 0.716667 18 1 18H2V15C2 13.9833 2.23767 13.029 2.713 12.137C3.18767 11.2457 3.85 10.5333 4.7 10C3.85 9.46667 3.18767 8.754 2.713 7.862C2.23767 6.97067 2 6.01667 2 5V2H1C0.716667 2 0.479 1.904 0.287 1.712C0.0956668 1.52067 0 1.28333 0 1C0 0.716667 0.0956668 0.479 0.287 0.287C0.479 0.0956666 0.716667 0 1 0H15C15.2833 0 15.5207 0.0956666 15.712 0.287C15.904 0.479 16 0.716667 16 1C16 1.28333 15.904 1.52067 15.712 1.712C15.5207 1.904 15.2833 2 15 2H14V5C14 6.01667 13.7627 6.97067 13.288 7.862C12.8127 8.754 12.15 9.46667 11.3 10C12.15 10.5333 12.8127 11.2457 13.288 12.137C13.7627 13.029 14 13.9833 14 15V18H15C15.2833 18 15.5207 18.096 15.712 18.288C15.904 18.4793 16 18.7167 16 19C16 19.2833 15.904 19.5207 15.712 19.712C15.5207 19.904 15.2833 20 15 20Z" fill="#7E7E7E"/>
+            </svg>              
+            LOADING...
+          </div>
         </form>
       </div>
     </div>
