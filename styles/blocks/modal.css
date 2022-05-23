@@ -11,6 +11,7 @@
   justify-content: center;
   align-items: center;
   z-index: 300;
+  overflow: scroll;
 }
 .modal-content {
   padding: 38px 90px 56px 90px;
@@ -40,6 +41,7 @@
   color: white;
   letter-spacing: 2px;
   padding: 10px 65px;
+  margin-top: 42px;
 }
 .modal-info__input {
   background: #f2f2f2;
@@ -58,10 +60,10 @@
   width: 100%;
 }
 .modal-plan > p{
-  margin-top: 23px;
+  margin: 23px 0;
 }
 
-.modal-plan__checkbox{
+.modal-plan__radio{
   display: flex;
   position: relative;
   align-items: center;
@@ -75,7 +77,7 @@ input[name = "plan"]{
   display: none;
   visibility: hidden;
 }
-.modal-plan__checkbox > label > div{
+.modal-plan__radio > label > div{
   position: absolute;
   left: 15px;
   z-index: 100;
@@ -97,40 +99,59 @@ input[name = "plan"]:checked ~ .modal-plan__label > div {
   background-position: center center;
   background-size: 20px 16px;
 }
-.modal-plan__checkbox:nth-child(2){
+.modal-plan__radio:nth-child(2){
   border: 1px solid #0278ED;
-}
-.modal-plan__checkbox:nth-child(2) p{
   color: #0278ED;
 }
-.modal-plan__checkbox:nth-child(3){
+.modal-plan__radio:nth-child(3){
   border: 1px solid #FF5437;
-}
-.modal-plan__checkbox:nth-child(3) p{
   color: #FF5437;
 }
-.modal-plan__checkbox:nth-child(4){
+
+.modal-plan__radio:nth-child(4){
   border: 1px solid #FF9209;
-}
-.modal-plan__checkbox:nth-child(4) p{
   color: #FF9209;
 }
 
-#modal-checkbox-1:checked ~ .modal-plan__label {
+#modal-radio-1:checked ~ .modal-plan__label {
   background-color: #0278ED;
-} 
-#modal-checkbox-1:checked ~ .modal-plan__label p {
   color: white;
 } 
-#modal-checkbox-2:checked ~ .modal-plan__label{
+#modal-radio-2:checked ~ .modal-plan__label{
   background-color: #FF5437;
-} 
-#modal-checkbox-2:checked ~ .modal-plan__label p{
   color: white;
 } 
-#modal-checkbox-3:checked ~ .modal-plan__label{
+#modal-radio-3:checked ~ .modal-plan__label{
   background-color: #FF9209;
-} 
-#modal-checkbox-3:checked ~ .modal-plan__label p{
   color: white;
 } 
+
+.modal-question > p{
+  margin: 43px 0 16px 0;
+}
+
+.modal-question__checkbox input{
+  display: none;
+  visibility: hidden;
+}
+.modal-question__checkbox {
+  margin: 7.5px 0;
+}
+.modal-quest__label > div{
+  border: 2px solid #0278ED;
+  height: 24px;
+  width: 24px;
+  border-radius: 4px;
+  background: none;
+}
+.modal-quest__label{
+  display: flex;
+  padding-left: 25%;
+  gap: 20px;
+}
+input[name = "modal-checkbox"]:checked ~ .modal-quest__label > div {
+  background: url(../../assets/phones/blue-check.svg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: 16px 16px;
+}
