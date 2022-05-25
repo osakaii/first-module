@@ -55,7 +55,10 @@ body {
 ul[class],
 ol[class] {
   list-style: none;
+  margin: 0;
+  padding: 0;
 }
+
 nav{
   list-style: none;
 }
@@ -95,7 +98,17 @@ p{
    width: 100%;
    padding: 0 calc((100% - 1200px) / 2);
 }
-ol{
-    margin: 0;
-    padding: 0;
+
+@media (max-width: 1250px) {
+  .container{
+    width: 100%;
+    padding: 0 calc((100% - 800px) / 2);
+ }
+}
+
+@media (max-width: 850px) {
+  .container{
+    width: 100%;
+    padding: 0 calc((100% - 600px) / 2);
+ }
 }

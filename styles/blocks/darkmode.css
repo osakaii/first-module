@@ -72,3 +72,9 @@
 .darkmode-modes__dark svg{
     fill: #FF9209;
 }
+
+@media (max-width: 1250px){
+    .darkmode-img{
+        width: 80%;
+    }
+}

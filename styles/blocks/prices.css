@@ -4,6 +4,8 @@
 
 .prices-item-wrapper {
   display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
   gap: 16px;
   padding-top: 40px;
 }
@@ -15,7 +17,6 @@
   flex-direction: column;
   align-items: center;
   padding: 50px 0;
-  height: 338px;
 }
 .prices-item__time {
   text-transform: uppercase;
@@ -31,4 +32,14 @@
 .price-item__tarif{
     font-size: 17px;
     line-height: 17px;
+}
+@media (max-width: 1250px) {
+  .price-item__price {
+    font-size: 65px;
+    line-height: 65px;
+    letter-spacing: 4px;
+  }
+  .prices-item {
+    padding: 30px 0;
+  }
 }

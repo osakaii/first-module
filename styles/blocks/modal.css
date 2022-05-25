@@ -4,7 +4,6 @@
   top: 0;
   left: 0;
   width: 100%;
-  height: 100vh;
   background: #00000059;
   display: none;
   color: #000000;
@@ -43,6 +42,9 @@
   padding: 10px 65px;
   margin-top: 42px;
 }
+.modal-info{
+  width: 100%;
+}
 .modal-info__input {
   background: #f2f2f2;
   border-radius: 4px;
@@ -51,7 +53,6 @@
   line-height: 24px;
   width: 100%;
   border: none;
-  margin-bottom: 17px;
 }
 .modal-plan {
   display: flex;
@@ -77,7 +78,7 @@ input[name="plan"] {
   display: none;
   visibility: hidden;
 }
-.modal-plan__radio > label > div {
+.modal-plan__label > span {
   position: absolute;
   left: 15px;
   z-index: 100;
@@ -86,6 +87,7 @@ input[name="plan"] {
   width: 20px;
   background: none;
 }
+
 .modal-plan__label {
   display: flex;
   align-items: center;
@@ -93,7 +95,7 @@ input[name="plan"] {
   width: 100%;
   height: 100%;
 }
-input[name="plan"]:checked ~ .modal-plan__label > div {
+input[name="plan"]:checked ~ .modal-plan__label > span {
   background: url(../../assets/checkbox.svg);
   background-repeat: no-repeat;
   background-position: center center;
@@ -137,7 +139,7 @@ input[name="plan"]:checked ~ .modal-plan__label > div {
 .modal-question__checkbox {
   margin: 7.5px 0;
 }
-.modal-quest__label > div {
+.modal-quest__label > span {
   border: 2px solid #0278ed;
   height: 24px;
   width: 24px;
@@ -149,7 +151,7 @@ input[name="plan"]:checked ~ .modal-plan__label > div {
   padding-left: 25%;
   gap: 20px;
 }
-input[name="modal-checkbox"]:checked ~ .modal-quest__label > div {
+input[name="modal-checkbox"]:checked ~ .modal-quest__label > span {
   background: url(../../assets/phones/blue-check.svg);
   background-repeat: no-repeat;
   background-position: center center;
@@ -179,5 +181,33 @@ input[name="modal-checkbox"]:checked ~ .modal-quest__label > div {
   }
   100% {
     transform: rotate(360deg);
+  }
+}
+
+.error-input{
+  background-color: #FFEEEE;
+}
+.error-text{
+  visibility: hidden;
+  width: 100%;
+  font-size: 12px;
+  line-height: 18px;
+  color: #FF5437;
+  margin-bottom: 5px;
+}
+.error-checkbox{
+  border: 2px solid #FF5437 !important;
+  animation: 1s error-checkbox infinite ;
+}
+
+@keyframes error-checkbox {
+  0%{
+    transform: scale( 1);
+  }
+  50%{
+    transform: scale( 1.09);
+  }
+  100%{
+    transform: scale( 1);
   }
 }

@@ -16,29 +16,31 @@
         <form  id="modal-form">
           <p class="modal-title">Leave a request for the purchase of goods</p>
           <div class="modal-info">
-            <input type="text" class="modal-info__input" placeholder="name" />
-            <input type="email" class="modal-info__input" placeholder="email" />
+            <input type="text" class="modal-info__input" placeholder="name" id="name-input"/>
+            <p class="error-text" id="name-error-text">this field is reqiured*</p>
+            <input type="email" class="modal-info__input" placeholder="email" id="email-input"/>
+            <p class="error-text" id="email-error-text">this field is reqiured*</p>
           </div>
           <div class="modal-plan">
             <p>Your plan?</p>
             <div class="modal-plan__radio">
               <input type="radio" id="modal-radio-1" name="plan" class="modal__radio" value="standart" />
               <label for="modal-radio-1" class="modal-plan__label">
-                <div></div>
+                <span></span>
                 Standart
               </label>
             </div>
             <div class="modal-plan__radio">
               <input type="radio" id="modal-radio-2" name="plan" class="modal__radio" value="premium" />
               <label for="modal-radio-2" class="modal-plan__label">
-                <div></div>
+                <span></span>
                 Premium
               </label>
             </div>
             <div class="modal-plan__radio">
               <input type="radio" id="modal-radio-3" name="plan" class="modal__radio" value="lifetime"/>
               <label for="modal-radio-3" class="modal-plan__label">
-                <div></div>
+                <span></span>
                 Lifetime
               </label>
             </div>
@@ -48,29 +50,29 @@
             <div class="modal-question__checkbox">
               <input type="checkbox" name="modal-checkbox" id="modal-checkbox-1"  class="modal__checkbox" value="Facebook"/>
               <label for="modal-checkbox-1" class="modal-quest__label">
-                <div></div>
-                <p>Facebook</p>
+                <span class="checkbox-view"></span>
+                Facebook
               </label>
             </div>
             <div class="modal-question__checkbox">
               <input type="checkbox" name="modal-checkbox" id="modal-checkbox-2" class="modal__checkbox" value="Instagram"/>
               <label for="modal-checkbox-2" class="modal-quest__label">
-                <div></div>
-                <p>Instagram</p>
+                <span class="checkbox-view"></span>
+                Instagram
               </label>
             </div>
             <div class="modal-question__checkbox">
               <input type="checkbox" name="modal-checkbox" id="modal-checkbox-3" class="modal__checkbox" value="Youtube"/>
               <label for="modal-checkbox-3" class="modal-quest__label">
-                <div></div>
-                <p>Youtube</p>
+                <span class="checkbox-view"></span>
+                Youtube
               </label>
             </div>
             <div class="modal-question__checkbox">
-              <input type="checkbox" name="modal-checkbox" id="modal-checkbox-4" value="Other"/>
+              <input type="checkbox" name="modal-checkbox" id="modal-checkbox-4" class="modal__checkbox" value="Other"/>
               <label for="modal-checkbox-4" class="modal-quest__label">
-                <div></div>
-                <p>Other</p>
+                <span class="checkbox-view"></span>
+                Other
               </label>
             </div>
           </div>
@@ -164,7 +166,6 @@
           </div>
         </div>
       </section>
-      <main>
         <section class="intro-section container">
           <div class="intro-section__main">
             <svg
@@ -214,12 +215,13 @@
               The H(app)y app is the latest & greatest in phone photography. It's
               available in the App Store right now. Go check it out!
             </p>
-            <button class="button buy-button">BUY NOW</button>
+            <button class="button buy-button" value="lifetime">BUY NOW</button>
             <button class="button">READ MORE</button>
           </div>
-          <img src="./assets/phones/s3_phone.png" alt="" />
+          <img src="./assets/phones/speed.png" alt="" />
         </section>
         <section class="features container" id="features">
+          <div class="features-content">
           <p class="features__title">Features</p>
           <h1>
             The latest & greatest in phone <br />
@@ -241,7 +243,7 @@
                   />
                 </svg>
               </div>
-              <img src="./assets/phones/Frame(1).png" alt="" />
+              <img src="./assets/phones/Frame.png" alt="" />
               <div class="features-item-desc">
                 <p class="features-item-desc__colored blueP">Calendar view</p>
                 <p class="features-item-desc__simple">
@@ -383,6 +385,7 @@
               </div>
             </div>
           </div>
+          </div>
         </section>
         <section class="numbers container">
           <div class="numbers-item">
@@ -488,19 +491,19 @@
                 <p class="price-item__tarif blueP">Standard</p>
                 <h1 class="price-item__price blueP"></h1>
                 <p class="prices-item__time">Monthly</p>
-                <button class="button blue-bc buy-button">Buy now</button>
+                <button class="button blue-bc buy-button" value="standart">Buy now</button>
               </div>
               <div class="prices-item">
                 <p class="price-item__tarif red-orangeP">Premium</p>
                 <h1 class="price-item__price red-orangeP"></h1>
                 <p class="prices-item__time">Annually</p>
-                <button class="button red-orange-bc buy-button">Buy now</button>
+                <button class="button red-orange-bc buy-button" value="premium">Buy now</button>
               </div>
               <div class="prices-item">
                 <p class="price-item__tarif orangeP">Lifetime</p>
                 <h1 class="price-item__price orangeP"></h1>
                 <p class="prices-item__time">up front</p>
-                <button class="orange-bc button buy-button">Buy now</button>
+                <button class="orange-bc button buy-button" value="lifetime">Buy now</button>
               </div>
             </div>
           </div>
@@ -716,7 +719,6 @@
             </div>
           </div>
         </section>
-      </main>
       <footer class="footer">
         <div class="footer-content">
           <svg

@@ -6,7 +6,9 @@
     background-color: #222222;
     text-align: center;
     color: white;
-    padding: 100px 10% !important;
+  }
+  .features-content{
+    padding: 100px 0;
   }
   .features__title{
     text-transform: uppercase;
@@ -79,4 +81,10 @@
     display: flex;
     justify-content: center;
     align-items: center;
+  }
+
+  @media (max-width: 1100px) {
+    .features-item{
+      width: calc(50% - 8px);
+    }
   }

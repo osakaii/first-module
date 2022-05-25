@@ -7,6 +7,7 @@
 }
 .feedback-item-wrapper{
     display: flex;
+    flex-wrap: wrap;
     gap: 16px;
     padding-top: 40px;
 }
@@ -30,4 +31,10 @@
 .feedback-item p:nth-child(3){
     font-size: 14px;
     color: #1B1A1A;
+}
+
+@media (max-width: 850px) {
+    .feedback-item{
+        width: 100%;
+    }
 }

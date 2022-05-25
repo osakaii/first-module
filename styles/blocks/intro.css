@@ -1,6 +1,6 @@
 
 .intro-section {
-    height: 700px;
+    /* height: 700px; */
     padding: 100px;
     display: flex;
     justify-content: space-around;
@@ -41,10 +41,29 @@
   }
   .intro-section img {
     position: relative;
+    overflow: hidden;
     height: 140%;
-    padding-top: 100px;
+    margin-top: auto;
     z-index: 1;
     width: 35%;
   }
   
-  
+  @media (max-width: 1250px){
+    .intro-section__article {
+      font-size: 32px;
+      line-height: 36px;
+      font-weight: 500;
+      margin: 16px 0;
+    }
+    .intro-section__desc {
+      font-size: 12px;
+      line-height: 16px;
+    }
+    .intro-section__main {
+      padding: 75px 0;
+    }
+    .intro-section button {
+      font-size: 16px;
+      margin: 10px 0;
+    }
+  }
