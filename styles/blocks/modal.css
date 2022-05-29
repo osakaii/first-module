@@ -1,21 +1,23 @@
 .modal {
-  display: block;
   position: fixed;
   top: 0;
   left: 0;
   width: 100%;
+  height: 100%;
   background: #00000059;
   display: none;
   color: #000000;
   justify-content: center;
   align-items: center;
   z-index: 300;
-  overflow: scroll;
+  overflow-y: auto;
+  padding-top: 200px;
 }
 .modal-content {
   padding: 38px 90px 56px 90px;
   border-radius: 4px;
-  background-color: #fff;
+  margin: 200px 0 110px 0;
+  background-color: #fff; 
 }
 .modal-title {
   font-size: 20px;
@@ -40,7 +42,7 @@
   color: white;
   letter-spacing: 2px;
   padding: 10px 65px;
-  margin-top: 42px;
+  margin-top: 22px;
 }
 .modal-info{
   width: 100%;
@@ -54,6 +56,10 @@
   width: 100%;
   border: none;
 }
+.modal-info__input:focus {
+  outline: 2px solid #5AB0FF;
+}
+
 .modal-plan {
   display: flex;
   text-align: center;
@@ -198,6 +204,15 @@ input[name="modal-checkbox"]:checked ~ .modal-quest__label > span {
 .error-checkbox{
   border: 2px solid #FF5437 !important;
   animation: 1s error-checkbox infinite ;
+}
+#checkbox-error-text{
+  visibility: hidden;
+  width: 100%;
+  font-size: 12px;
+  line-height: 18px;
+  text-align: center;
+  color: #FF5437;
+  margin-top: 10px;
 }
 
 @keyframes error-checkbox {

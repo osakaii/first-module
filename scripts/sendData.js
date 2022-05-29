@@ -3,7 +3,6 @@ import { validateForm } from "./validateForm.js";
 const modalWindow = document.getElementById("modalWindow");
 const modalForm = document.getElementById("modal-form");
 
-// const inputs = modalForm.querySelectorAll(".modal-info__input");
 const nameInput = modalForm.querySelector('#name-input');
 const emailInput = modalForm.querySelector('#email-input');
 
@@ -18,6 +17,10 @@ const closeModal = (formData) => {
   sendButton.style.display = "block";
   sendPlaceHolder.style.display = "none";
   modalWindow.style.display = "none";
+
+  nameInput.value = ""
+  emailInput.value = ""
+  checkBoxes.forEach(el => el.checked = false )
 };
 
 const submitForm = (formData) => {

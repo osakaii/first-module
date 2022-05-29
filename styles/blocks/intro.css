@@ -1,6 +1,4 @@
-
 .intro-section {
-    /* height: 700px; */
     padding: 100px;
     display: flex;
     justify-content: space-around;
@@ -32,7 +30,7 @@
     line-height: 120%;
     margin: 30px 0;
     font-size: 54px;
-    line-height: 60px;
+    line-height: 110%;
     font-weight: 400;
   }
   .intro-section button {
@@ -51,7 +49,6 @@
   @media (max-width: 1250px){
     .intro-section__article {
       font-size: 32px;
-      line-height: 36px;
       font-weight: 500;
       margin: 16px 0;
     }
@@ -65,5 +62,39 @@
     .intro-section button {
       font-size: 16px;
       margin: 10px 0;
+    }
+  }
+
+  @media (max-width: 850px){
+    .intro-section button{
+      font-size: 10px;
+      padding: 6px 16px;
+    }
+    .intro-section__article {
+      margin: 10px 0;
+      font-size: 26px;
+    }
+    .intro-section__main svg{
+      width: 80px;
+      height: 36px;
+    }
+  }
+  @media (max-width: 620px){
+    .intro-section button{
+      font-size: 8px;
+      width: 80px;
+      margin: 5px 0;
+    }
+    .intro-section__article {
+      font-size: 18px;
+    }
+    .intro-section__main {
+      padding: 25px 0;
+      width: 100%;
+      flex-wrap: wrap;
+    }
+    .intro-section__main svg{
+      width: 80px;
+      height: 36px;
     }
   }

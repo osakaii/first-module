@@ -43,3 +43,8 @@
     padding: 30px 0;
   }
 }
+@media (max-width: 620px){
+  .prices-item {
+    width: 100%;
+  }
+}

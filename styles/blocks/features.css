@@ -88,3 +88,8 @@
       width: calc(50% - 8px);
     }
   }
+  @media (max-width: 620px){
+    .features-item{
+      width: 100%;
+    }
+  }

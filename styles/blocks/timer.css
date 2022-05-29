@@ -33,14 +33,14 @@
     width: 25%;
 
   }
-  .timer-section__timer-wrapper p:nth-child(1){
+  .timer-numbers{
     text-align: center;
     color: #FFFFFF;
     font-size: 100px;
     line-height: 150px;
     letter-spacing: 1.1px;
   }
-  .timer-section__timer-wrapper p:nth-child(2){
+  .timer-numbers-desc{
     text-align: center;
     color: #FFFFFF;
     font-weight: 700;
@@ -58,4 +58,49 @@
     display: flex;
     margin: 0 auto;
     justify-content: space-around;
+  }
+
+  @media (max-width: 850px){
+    .timer-section {
+      min-height: 270px;
+    }
+    .timer-section h2{
+      font-size: 30px;
+    }
+    .timer-section__timer-wrapper{
+      width: 500px;
+    }
+    .timer-numbers{
+      font-size: 50px;
+      line-height: 70px;
+    }
+    .timer-section__timer-wrapper span{
+      font-size: 50px;
+    }
+    .timer-numbers-desc{
+      font-size: 16px;
+      line-height: 18px;
+    }
+  }
+  @media (max-width: 850px){
+    .timer-section {
+      min-height: 200px;
+    }
+    .timer-section h2{
+      font-size: 22px;
+    }
+    .timer-section__timer-wrapper{
+      width: 350px;
+    }
+    .timer-numbers{
+      font-size: 32px;
+      line-height: 40px;
+    }
+    .timer-section__timer-wrapper span{
+      font-size: 30px;
+    }
+    .timer-numbers-desc{
+      font-size: 12px;
+      line-height: 14px;
+    }
   }

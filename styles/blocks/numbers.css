@@ -18,3 +18,14 @@
     color: #ffffff;
     text-align: center;
 }
+@media (max-width: 850px) {
+    .numbers-item{
+        margin: 50px 0;
+    }
+    .numbers-item h3{
+        font-size: 45px;
+    }
+    .numbers-item p{
+        font-size: 10px;
+    }
+}

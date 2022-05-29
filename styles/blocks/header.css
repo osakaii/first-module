@@ -35,3 +35,74 @@
     letter-spacing: 2px;
     margin-left: 15px;
   }
+  #burger-button{
+    display: none;
+  }
+  .navbar-mobile{
+    display: none;
+  }
+
+  @media (max-width: 850px){
+    .header{
+      height: 65px;
+    }
+    #burger-button{
+      display: flex;
+      position: relative;
+      z-index: 200;
+      border-radius: 50%;
+      justify-content: center;
+      align-items: center;
+      width: 36px;
+      height: 36px;
+      background-color: none;
+    }
+    #burger-button:hover{
+      background-color: #E5E5E5;
+    }
+    #burger-button:focus{
+      outline: 1px solid #5AB0FF;
+    }
+    .navbar{
+      display: none;
+    }
+    .navbar-mobile{
+      z-index: 100;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      gap: 18px;
+      width: 100vw;
+      height: 100vh;
+      position: fixed;
+      top: 0;
+      left: 100%;
+      background-color: #FFFFFF;
+      transition: 1s;
+    }
+    .navbar-mobile a {
+      text-decoration: none;
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 24px;
+      color: #666666;
+    }
+    .navbar-modile__button{
+      font-size: 14px;
+      line-height: 18px;
+      letter-spacing: 2px;
+      color: white;
+      border:  none;
+      background-color: #222;
+      padding: 11px 31px;
+      margin-top: 20px;
+      border-radius: 4px;
+    }
+    .navbar-mobile__logo{
+      margin-bottom: 20px;
+    }
+    .show{
+      left: 0;
+    }
+  }

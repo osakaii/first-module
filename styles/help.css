@@ -93,8 +93,8 @@
   height: 548px;
 }
 .side-phone img {
-  width: 376px;
-  height: 548px;
+  width: 100%;
+  height: 100%;
   object-fit: cover;
   object-position: top;
 }
@@ -106,3 +106,19 @@
     -ms-user-select: none;
     user-select: none;
 }
+
+@media (max-width: 850px){
+    .side-phone {
+        margin-top: auto;
+        width: 250px;
+        height: 380px;
+      }
+} 
+
+@media (max-width: 620px){
+    .side-phone {
+        margin-top: auto;
+        width: 180px;
+        height: 280px;
+      }
+} 
