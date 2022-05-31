@@ -67,6 +67,9 @@
     .timer-section h2{
       font-size: 30px;
     }
+    .timer-section h3 {
+      font-size: 24px;
+    }
     .timer-section__timer-wrapper{
       width: 500px;
     }
@@ -96,8 +99,36 @@
       font-size: 32px;
       line-height: 40px;
     }
+    .timer-section h3 {
+      font-size: 18px;
+    }
     .timer-section__timer-wrapper span{
       font-size: 30px;
+    }
+    .timer-numbers-desc{
+      font-size: 12px;
+      line-height: 14px;
+    }
+  }
+  @media (max-width: 850px){
+    .timer-section {
+      min-height: 200px;
+    }
+    .timer-section h2{
+      font-size: 16px;
+    }
+    .timer-section h3 {
+      font-size: 14px;
+    }
+    .timer-section__timer-wrapper{
+      width: 300px;
+    }
+    .timer-numbers{
+      font-size: 28px;
+      line-height: 36px;
+    }
+    .timer-section__timer-wrapper span{
+      font-size: 28px;
     }
     .timer-numbers-desc{
       font-size: 12px;

@@ -43,9 +43,13 @@
   }
 }
 @media (max-width: 620px){
+  .speed{
+    flex-direction: column-reverse;
+  }
   .speed-text {
     padding: 40px 0;
-    width: 50%;
+    width: 100%;
+    text-align: center;
   }
   .speed-text :nth-child(2) {
     font-size: 18px;
@@ -54,5 +58,8 @@
   .speed-text :nth-child(3) {
     font-size: 10px;
     line-height: 170%;
+  }
+  .side-phone{
+    margin: 0 auto;
   }
 }

@@ -1,4 +1,4 @@
-import data from "../config.json" assert { type: "json" };
+import data from "../config.json";
 
 const innerTagsContent = (tagArray, content, dollar = '') => {
   tagArray.forEach((priceTag, index) => {

@@ -7,6 +7,7 @@ import { initModalToggling } from './modal.js';
 import { initFormHandler } from './sendData.js';
 import { initButtonToggling } from './burgerToggle.js';
 
+import '../styles/import.css'
 
 initTimer()
 innerPrice()

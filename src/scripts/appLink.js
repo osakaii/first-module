@@ -1,4 +1,4 @@
-import data from "../config.json" assert { type: "json" };
+import data from "../config.json";
 
 export const addAppStoreLink = () =>{
     const linkTags = document.querySelectorAll('.app_link')

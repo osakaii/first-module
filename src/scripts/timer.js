@@ -1,8 +1,5 @@
 
-const getJSON = async () =>{
-  const req = await fetch('./config.json')
-  return await req.json()
-}
+import fetchedData from '../config.json'
 
 const parseDate = (str) => {
   const [date, time] = str.split(" ");
@@ -58,7 +55,6 @@ const unmountTimer = () => {
 };
 
 export const initTimer = async () => {
-  const fetchedData = await getJSON()
 
   let data = getTimerData(parseDate(fetchedData.time), new Date());
   if (!data) {

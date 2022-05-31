@@ -226,3 +226,16 @@ input[name="modal-checkbox"]:checked ~ .modal-quest__label > span {
     transform: scale( 1);
   }
 }
+
+@media (max-width: 850px){
+  .modal{
+    padding-top: auto;
+  }
+  .modal-content {
+    padding: 40px 35px;
+    margin: 0;
+  }
+  .modal-question > p {
+    text-align: center;
+  }
+}

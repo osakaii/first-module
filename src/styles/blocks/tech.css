@@ -42,9 +42,13 @@
   }
 }
 @media (max-width: 620px){
+  .technology{
+    flex-direction: column;
+  }
   .technology-text {
     padding: 40px 0;
-    width: 50%;
+    width: 100%;
+    text-align: center;
   }
   .technology-text :nth-child(2) {
     font-size: 18px;
