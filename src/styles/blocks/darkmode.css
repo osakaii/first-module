@@ -101,3 +101,9 @@
         line-height: 18px;
     }
 }
+@media (max-width: 420px){
+    .darkmode-img{
+        width: 100%;
+        height: 200px;
+    }
+}
