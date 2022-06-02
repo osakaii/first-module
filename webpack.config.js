@@ -4,7 +4,7 @@ const HtmlWebpackPlugin = require('html-webpack-plugin')
 const CopyPlugin = require('copy-webpack-plugin')
 
 module.exports = {
-    mode: 'production',
+    mode: 'development',
     entry: {
         main: './src/scripts/main.js'
     },

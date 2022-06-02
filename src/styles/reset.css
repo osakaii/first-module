@@ -96,7 +96,7 @@ p{
 }
 .container{
    width: 100%;
-   padding: 0 calc((100% - 1200px) / 2);
+   padding: 0 calc((100% - 1168px) / 2);
 }
 
 @media (max-width: 1250px) {

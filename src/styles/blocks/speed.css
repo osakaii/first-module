@@ -3,11 +3,12 @@
 .speed{
     background: #F2F2F2;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
+    gap: 150px;
 }
 .speed-text{
-    width: 50%;
-    padding: 177px 0 188px 0;
+    width: 40%;
+    padding: 177px 0 188px ;
 }
 .speed-text :nth-child(1){
   letter-spacing: 2px;
@@ -18,7 +19,7 @@
   color: #222222;
 }
 .speed-text :nth-child(2){
-    margin: 15px 0;
+    margin: 6px 0 12px 0;
     font-weight: 400;
     font-size: 32px;
     line-height: 36px;
@@ -28,6 +29,7 @@
     font-weight: 400;
   font-size: 16px;
   line-height: 24px;
+  width: 85%;
   color: #666666;
 }
 @media (max-width: 850px){

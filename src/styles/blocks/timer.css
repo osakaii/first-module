@@ -51,7 +51,8 @@
   .timer-section__timer-wrapper span{
     text-align: center;
     color: #FFFFFF;
-    font-size: 7rem;
+    font-size: 100px;
+    line-height: 150px;
   }
   .timer-section__times{
     width: 65%;

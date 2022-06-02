@@ -3,9 +3,11 @@
     border: none;
     background-color: #222222;
     color: white;
-    padding: 10px 25px;
-    font-size: 18px;
+    padding: 10px 25px 12px 25px;
+    font-size: 14px;
+    line-height: 18px;
     border-radius: 4px;
+    letter-spacing: 2px;
     text-transform: uppercase;
     margin: 0 5px;
 }
